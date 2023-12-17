@@ -1,0 +1,15 @@
+[server]
+hosts = 0.0.0.0:5232
+[encoding]
+[auth]
+type = htpasswd
+htpasswd_filename = /config/.htpasswd
+htpasswd_encryption = bcrypt
+delay = 1
+[rights]
+[storage]
+filesystem_folder = /data/collections
+[web]
+type = radicale_infcloud
+[logging]
+[headers]
